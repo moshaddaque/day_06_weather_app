@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.moshaddaque.day_06_weather_app"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973" // Updated to match plugin requirements
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
