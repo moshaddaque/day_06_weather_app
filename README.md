@@ -1,34 +1,36 @@
-<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="_Weather_App__100_Days_of_Flutter_Challenge_0"></a>🌦️ Weather App - 100 Days of Flutter Challenge</h1>
-<p class="has-line-data" data-line-start="2" data-line-end="8">&lt;p align=“center”&gt;<br>
-&lt;a href=&quot;<a href="https://flutter.dev">https://flutter.dev</a>“&gt;&lt;img src=”<a href="https://img.shields.io/badge/Flutter-3.19.0-blue?logo=flutter">https://img.shields.io/badge/Flutter-3.19.0-blue?logo=flutter</a>&quot; alt=“Flutter Version”&gt;&lt;/a&gt;<br>
-&lt;a href=&quot;<a href="https://dart.dev">https://dart.dev</a>“&gt;&lt;img src=”<a href="https://img.shields.io/badge/Dart-3.3.0-blue?logo=dart">https://img.shields.io/badge/Dart-3.3.0-blue?logo=dart</a>&quot; alt=“Dart Version”&gt;&lt;/a&gt;<br>
-&lt;a href=&quot;<a href="https://openweathermap.org/api">https://openweathermap.org/api</a>“&gt;&lt;img src=”<a href="https://img.shields.io/badge/API-OpenWeatherMap-orange">https://img.shields.io/badge/API-OpenWeatherMap-orange</a>&quot; alt=“API”&gt;&lt;/a&gt;<br>
-&lt;a href=&quot;<a href="https://github.com/yourusername/day_06_weather_app">https://github.com/yourusername/day_06_weather_app</a>“&gt;&lt;img src=”<a href="https://img.shields.io/badge/Day-6%2F100-success">https://img.shields.io/badge/Day-6%2F100-success</a>&quot; alt=“Day 6 of 100”&gt;&lt;/a&gt;<br>
-&lt;/p&gt;</p>
-<h2 class="code-line" data-line-start=9 data-line-end=10 ><a id="_Overview_9"></a>📱 Overview</h2>
-<p class="has-line-data" data-line-start="10" data-line-end="11">A beautiful, animated weather application built as part of the 100 Days of Flutter Challenge. This app fetches real-time weather data from the OpenWeatherMap API and displays it with elegant animations and UI effects. The app features a modern glassmorphic design with dynamic backgrounds that change based on current weather conditions.</p>
-<h2 class="code-line" data-line-start=12 data-line-end=13 ><a id="_Features_12"></a>✨ Features</h2>
-<ul>
-<li class="has-line-data" data-line-start="13" data-line-end="14">📍 <strong>Current Location Detection</strong> - Automatically fetches weather for your current location</li>
-<li class="has-line-data" data-line-start="14" data-line-end="15">🎨 <strong>Dynamic Themes</strong> - UI colors and backgrounds adapt to current weather conditions</li>
-<li class="has-line-data" data-line-start="15" data-line-end="16">🔄 <strong>Real-time Updates</strong> - Pull-to-refresh functionality for latest weather data</li>
-<li class="has-line-data" data-line-start="16" data-line-end="17">🌈 <strong>Glassmorphic UI</strong> - Modern, translucent card design with blur effects</li>
-<li class="has-line-data" data-line-start="17" data-line-end="18">⚡ <strong>Smooth Animations</strong> - Beautiful transitions and weather animations</li>
-<li class="has-line-data" data-line-start="18" data-line-end="19">📱 <strong>Responsive Design</strong> - Adapts perfectly to all screen sizes</li>
-<li class="has-line-data" data-line-start="19" data-line-end="21">🌡️ <strong>Detailed Weather Info</strong> - Temperature, humidity, wind speed, and more</li>
-</ul>
-<h2 class="code-line" data-line-start=21 data-line-end=22 ><a id="_Weather_Animations_21"></a>🎬 Weather Animations</h2>
-<p class="has-line-data" data-line-start="22" data-line-end="23">The app features beautiful Lottie animations that change based on current weather conditions:</p>
-<ul>
-<li class="has-line-data" data-line-start="24" data-line-end="25">☀️ <strong>Sunny</strong> → Vibrant Yellow/Orange gradient with animated sun rays</li>
-<li class="has-line-data" data-line-start="25" data-line-end="26">🌧️ <strong>Rainy</strong> → Soothing Dark Blue background with realistic animated raindrops</li>
-<li class="has-line-data" data-line-start="26" data-line-end="27">☁️ <strong>Cloudy</strong> → Soft Gray-Blue tones with gently moving cloud formations</li>
-<li class="has-line-data" data-line-start="27" data-line-end="28">🌩️ <strong>Thunderstorm</strong> → Dramatic Dark Purple background with lightning flash effects</li>
-<li class="has-line-data" data-line-start="28" data-line-end="30">❄️ <strong>Snow</strong> → Serene Light Blue background with falling snowflakes animation</li>
-</ul>
-<h2 class="code-line" data-line-start=30 data-line-end=31 ><a id="_Project_Structure_30"></a>📂 Project Structure</h2>
-<p class="has-line-data" data-line-start="31" data-line-end="32">The app follows a clean, modular architecture for better maintainability and scalability:</p>
-<pre><code class="has-line-data" data-line-start="34" data-line-end="51">lib/
+# 🌦️ Weather App - 100 Days of Flutter Challenge
+
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.19.0-blue.svg?logo=flutter)](https://flutter.dev/)
+[![Dart Version](https://img.shields.io/badge/Dart-3.3.0-blue.svg?logo=dart)](https://dart.dev/)
+[![API](https://img.shields.io/badge/API-OpenWeatherMap-orange.svg)](https://openweathermap.org/api)
+[![Day Progress](https://img.shields.io/badge/Day-6%2F100-success.svg)](https://github.com/yourusername/day_06_weather_app)
+
+## 📱 Overview
+A beautiful, animated weather application built as part of the 100 Days of Flutter Challenge. This app fetches real-time weather data from the OpenWeatherMap API and displays it with elegant animations and UI effects. The app features a modern glassmorphic design with dynamic backgrounds that change based on current weather conditions.
+
+## ✨ Features
+- 📍 **Current Location Detection** - Automatically fetches weather for your current location
+- 🎨 **Dynamic Themes** - UI colors and backgrounds adapt to current weather conditions
+- 🔄 **Real-time Updates** - Pull-to-refresh functionality for latest weather data
+- 🌈 **Glassmorphic UI** - Modern, translucent card design with blur effects
+- ⚡ **Smooth Animations** - Beautiful transitions and weather animations
+- 📱 **Responsive Design** - Adapts perfectly to all screen sizes
+- 🌡️ **Detailed Weather Info** - Temperature, humidity, wind speed, and more
+
+## 🎬 Weather Animations
+The app features beautiful Lottie animations that change based on current weather conditions:
+
+- ☀️ **Sunny** → Vibrant Yellow/Orange gradient with animated sun rays
+- 🌧️ **Rainy** → Soothing Dark Blue background with realistic animated raindrops
+- ☁️ **Cloudy** → Soft Gray-Blue tones with gently moving cloud formations
+- 🌩️ **Thunderstorm** → Dramatic Dark Purple background with lightning flash effects
+- ❄️ **Snow** → Serene Light Blue background with falling snowflakes animation
+
+## 📂 Project Structure
+The app follows a clean, modular architecture for better maintainability and scalability:
+
+```
+lib/
  ┣ models/
  ┃ ┗ weather_model.dart         // Data models for weather information
  ┣ services/
@@ -44,9 +46,11 @@
  ┃ ┣ theme_colors.dart          // Weather-based color schemes
  ┃ ┗ api_key.dart               // API key configuration
  ┗ main.dart                    // App entry point
-</code></pre>
-<h3 class="code-line" data-line-start=52 data-line-end=53 ><a id="Assets_52"></a>Assets</h3>
-<pre><code class="has-line-data" data-line-start="54" data-line-end="64">assets/
+```
+
+### Assets
+```
+assets/
  ┣ animations/                  // Lottie animation files
  ┃ ┣ sunny.json
  ┃ ┣ rainy.json
@@ -55,140 +59,99 @@
  ┃ ┗ snow.json
  ┗ images/                      // App images and screenshots
    ┗ weather_screen.png
-</code></pre>
-<h2 class="code-line" data-line-start=65 data-line-end=66 ><a id="_Setup_Instructions_65"></a>🚀 Setup Instructions</h2>
-<h3 class="code-line" data-line-start=67 data-line-end=68 ><a id="Prerequisites_67"></a>Prerequisites</h3>
-<ul>
-<li class="has-line-data" data-line-start="68" data-line-end="69">Flutter SDK (3.19.0 or later)</li>
-<li class="has-line-data" data-line-start="69" data-line-end="70">Dart SDK (3.3.0 or later)</li>
-<li class="has-line-data" data-line-start="70" data-line-end="71">Android Studio / VS Code with Flutter extensions</li>
-<li class="has-line-data" data-line-start="71" data-line-end="73">An OpenWeatherMap API key</li>
-</ul>
-<h3 class="code-line" data-line-start=73 data-line-end=74 ><a id="Installation_Steps_73"></a>Installation Steps</h3>
-<ol>
-<li class="has-line-data" data-line-start="74" data-line-end="80">
-<p class="has-line-data" data-line-start="74" data-line-end="75"><strong>Clone the repository</strong></p>
-<pre><code class="has-line-data" data-line-start="76" data-line-end="79" class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/yourusername/day_06_weather_app.git
-<span class="hljs-built_in">cd</span> day_06_weather_app
-</code></pre>
-</li>
-<li class="has-line-data" data-line-start="80" data-line-end="84">
-<p class="has-line-data" data-line-start="80" data-line-end="81"><strong>Get your API key</strong></p>
-<ul>
-<li class="has-line-data" data-line-start="81" data-line-end="82">Create a free account at <a href="https://openweathermap.org/api">OpenWeatherMap</a></li>
-<li class="has-line-data" data-line-start="82" data-line-end="84">Generate an API key from your account dashboard</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="84" data-line-end="90">
-<p class="has-line-data" data-line-start="84" data-line-end="85"><strong>Configure the API key</strong></p>
-<ul>
-<li class="has-line-data" data-line-start="85" data-line-end="90">Create a file at <code>lib/utils/api_key.dart</code> with the following content:<pre><code class="has-line-data" data-line-start="87" data-line-end="89" class="language-dart"><span class="hljs-keyword">const</span> <span class="hljs-built_in">String</span> apiKey = <span class="hljs-string">'YOUR_API_KEY_HERE'</span>;
-</code></pre>
-</li>
-</ul>
-</li>
-<li class="has-line-data" data-line-start="90" data-line-end="95">
-<p class="has-line-data" data-line-start="90" data-line-end="91"><strong>Install dependencies</strong></p>
-<pre><code class="has-line-data" data-line-start="92" data-line-end="94" class="language-bash">flutter pub get
-</code></pre>
-</li>
-<li class="has-line-data" data-line-start="95" data-line-end="100">
-<p class="has-line-data" data-line-start="95" data-line-end="96"><strong>Run the app</strong></p>
-<pre><code class="has-line-data" data-line-start="97" data-line-end="99" class="language-bash">flutter run
-</code></pre>
-</li>
-</ol>
-<h3 class="code-line" data-line-start=100 data-line-end=101 ><a id="Troubleshooting_100"></a>Troubleshooting</h3>
-<ul>
-<li class="has-line-data" data-line-start="101" data-line-end="102">If you encounter location permission issues, ensure your emulator/device has location services enabled</li>
-<li class="has-line-data" data-line-start="102" data-line-end="103">For API-related errors, verify your API key is correctly configured</li>
-<li class="has-line-data" data-line-start="103" data-line-end="105">If animations don’t load, check that Lottie files are correctly placed in the assets folder</li>
-</ul>
-<h2 class="code-line" data-line-start=105 data-line-end=106 ><a id="_Dependencies_105"></a>📦 Dependencies</h2>
-<table class="table table-striped table-bordered">
-<thead>
-<tr>
-<th>Package</th>
-<th>Version</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://pub.dev/packages/http">http</a></td>
-<td>^1.1.0</td>
-<td>API requests to OpenWeatherMap</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/geolocator">geolocator</a></td>
-<td>^10.0.0</td>
-<td>Device location detection</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/provider">provider</a></td>
-<td>^6.0.5</td>
-<td>State management</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/lottie">lottie</a></td>
-<td>^2.6.0</td>
-<td>Weather animations</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/flutter_spinkit">flutter_spinkit</a></td>
-<td>^5.2.0</td>
-<td>Loading indicators</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/google_fonts">google_fonts</a></td>
-<td>^5.1.0</td>
-<td>Custom typography</td>
-</tr>
-<tr>
-<td><a href="https://pub.dev/packages/intl">intl</a></td>
-<td>^0.18.1</td>
-<td>Date/time formatting</td>
-</tr>
-</tbody>
-</table>
-<h2 class="code-line" data-line-start=117 data-line-end=118 ><a id="_Screenshots_117"></a>📸 Screenshots</h2>
-<p class="has-line-data" data-line-start="119" data-line-end="122">&lt;p align=“center”&gt;<br>
-&lt;img src=“assets/images/weather_screen.png” alt=“Weather App Screenshot” width=“300”&gt;<br>
-&lt;/p&gt;</p>
-<h2 class="code-line" data-line-start=123 data-line-end=124 ><a id="_Key_Learning_Points_123"></a>🔑 Key Learning Points</h2>
-<ul>
-<li class="has-line-data" data-line-start="124" data-line-end="125">Implementing dynamic UI based on weather conditions</li>
-<li class="has-line-data" data-line-start="125" data-line-end="126">Working with RESTful APIs and handling responses</li>
-<li class="has-line-data" data-line-start="126" data-line-end="127">Managing application state with Provider</li>
-<li class="has-line-data" data-line-start="127" data-line-end="128">Creating custom animations for enhanced user experience</li>
-<li class="has-line-data" data-line-start="128" data-line-end="129">Implementing location services in Flutter</li>
-<li class="has-line-data" data-line-start="129" data-line-end="130">Building responsive and beautiful UI with glassmorphism design</li>
-<li class="has-line-data" data-line-start="130" data-line-end="132">Error handling and loading states</li>
-</ul>
-<h2 class="code-line" data-line-start=132 data-line-end=133 ><a id="_Future_Improvements_132"></a>🚀 Future Improvements</h2>
-<ul>
-<li class="has-line-data" data-line-start="133" data-line-end="134">Add support for multiple locations</li>
-<li class="has-line-data" data-line-start="134" data-line-end="135">Implement weather forecasts for upcoming days</li>
-<li class="has-line-data" data-line-start="135" data-line-end="136">Add settings for temperature units (Celsius/Fahrenheit)</li>
-<li class="has-line-data" data-line-start="136" data-line-end="137">Implement dark/light mode toggle</li>
-<li class="has-line-data" data-line-start="137" data-line-end="138">Add weather notifications</li>
-<li class="has-line-data" data-line-start="138" data-line-end="140">Optimize performance for older devices</li>
-</ul>
-<h2 class="code-line" data-line-start=140 data-line-end=141 ><a id="_How_to_Contribute_140"></a>👥 How to Contribute</h2>
-<ol>
-<li class="has-line-data" data-line-start="141" data-line-end="142">Fork the repository</li>
-<li class="has-line-data" data-line-start="142" data-line-end="143">Create your feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
-<li class="has-line-data" data-line-start="143" data-line-end="144">Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
-<li class="has-line-data" data-line-start="144" data-line-end="145">Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
-<li class="has-line-data" data-line-start="145" data-line-end="147">Open a Pull Request</li>
-</ol>
-<h2 class="code-line" data-line-start=147 data-line-end=148 ><a id="_License_147"></a>📄 License</h2>
-<pre><code class="has-line-data" data-line-start="150" data-line-end="172">MIT License
+```
+
+## 🚀 Setup Instructions
+
+### Prerequisites
+- Flutter SDK (3.19.0 or later)
+- Dart SDK (3.3.0 or later)
+- Android Studio / VS Code with Flutter extensions
+- An OpenWeatherMap API key
+
+### Installation Steps
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/day_06_weather_app.git
+   cd day_06_weather_app
+   ```
+
+2. **Get your API key**
+   - Create a free account at [OpenWeatherMap](https://openweathermap.org/api)
+   - Generate an API key from your account dashboard
+
+3. **Configure the API key**
+   - Create a file at `lib/utils/api_key.dart` with the following content:
+     ```dart
+     const String apiKey = 'YOUR_API_KEY_HERE';
+     ```
+
+4. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+5. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+### Troubleshooting
+- If you encounter location permission issues, ensure your emulator/device has location services enabled
+- For API-related errors, verify your API key is correctly configured
+- If animations don't load, check that Lottie files are correctly placed in the assets folder
+
+## 📦 Dependencies
+
+| Package | Version | Purpose |
+|---------|---------|----------|
+| [http](https://pub.dev/packages/http) | ^1.1.0 | API requests to OpenWeatherMap |
+| [geolocator](https://pub.dev/packages/geolocator) | ^10.0.0 | Device location detection |
+| [provider](https://pub.dev/packages/provider) | ^6.0.5 | State management |
+| [lottie](https://pub.dev/packages/lottie) | ^2.6.0 | Weather animations |
+| [flutter_spinkit](https://pub.dev/packages/flutter_spinkit) | ^5.2.0 | Loading indicators |
+| [google_fonts](https://pub.dev/packages/google_fonts) | ^5.1.0 | Custom typography |
+| [intl](https://pub.dev/packages/intl) | ^0.18.1 | Date/time formatting |
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/images/weather_screen.png" alt="Weather App Screenshot" width="300">
+</p>
+
+## 🔑 Key Learning Points
+- Implementing dynamic UI based on weather conditions
+- Working with RESTful APIs and handling responses
+- Managing application state with Provider
+- Creating custom animations for enhanced user experience
+- Implementing location services in Flutter
+- Building responsive and beautiful UI with glassmorphism design
+- Error handling and loading states
+
+## 🚀 Future Improvements
+- Add support for multiple locations
+- Implement weather forecasts for upcoming days
+- Add settings for temperature units (Celsius/Fahrenheit)
+- Implement dark/light mode toggle
+- Add weather notifications
+- Optimize performance for older devices
+
+## 👥 How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+```
+MIT License
 
 Copyright (c) 2023 Your Name
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
+of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -197,16 +160,20 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</code></pre>
-<p class="has-line-data" data-line-start="173" data-line-end="174">This project is licensed under the MIT License as shown above.</p>
-<h2 class="code-line" data-line-start=175 data-line-end=176 ><a id="_Credits_175"></a>🙏 Credits</h2>
-<p class="has-line-data" data-line-start="176" data-line-end="177">Created as part of the 100 Days of Flutter Challenge.</p>
-<hr>
-<p class="has-line-data" data-line-start="180" data-line-end="181">&lt;p align=“center”&gt;Made with ❤️ using Flutter&lt;/p&gt;</p>
+```
+
+This project is licensed under the MIT License as shown above.
+
+## 🙏 Credits
+Created as part of the 100 Days of Flutter Challenge.
+
+---
+
+<p align="center">Made with ❤️ using Flutter</p>
